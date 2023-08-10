@@ -467,15 +467,20 @@ html, body {
     padding-bottom: 1em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-    background: $aside-notice-bg;
+    
     line-height: 1.6;
-
+    &.notice {
+      color: $aside-notice-color;
+      background: $aside-notice-bg;
+    }
     &.warning {
       background-color: $aside-warning-bg;
+      color: $aside-warning-color;
     }
 
     &.success {
       background-color: $aside-success-bg;
+      color: $aside-success-color;
     }
   }
 
